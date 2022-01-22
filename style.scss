@@ -4,10 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Allerta', sans-serif;
 }
 body {
     min-height: 100vh;
-    background-color: blue;
     main {
         margin: auto;
         .background-home {
@@ -16,13 +16,30 @@ body {
             top: 65px;
             left: 0;
             z-index: -10;
+            img {
+                width: 100%;
+            }
         }
         .container {
+            width: 100%;
+        }
+        .in {
             max-width: 900px;
             text-align: center;
             margin: auto;
-            margin-top: 40px;
+            margin-top: 0px;
             padding: 20px;
+        }
+        .test {
+            background-color: #fff;
+            z-index: 0;
+        }
+        .bg-dark {
+           background-color: #252525;
+        }
+        .try {
+            height: 100vh;
+            margin-top: 500px;
         }
     }
     
@@ -52,7 +69,7 @@ body {
 }
 
 header {
-    font-family: 'Allerta', sans-serif;
+    
     font-size: 34px;
     background-color: white;
     height: 65px;
