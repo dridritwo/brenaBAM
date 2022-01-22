@@ -5,7 +5,6 @@ BAM.appendChild(newContent);
 BAM.classList.add("BAM");
 
 body.addEventListener("mousedown", e => {
-console.log("clicked : ", e);
   // et lui donne un peu de contenu
   // ajoute le nœud texte au nouveau div créé
   
