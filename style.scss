@@ -1,166 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Karla&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Allerta&family=Karla&display=swap");
 
-$orange: #FD562A;
+$orange: #fd562a;
 $dark: #252525;
-$grey: #C4C4C4;
+$grey: #c4c4c4;
 
-.orange {
-    color: $orange;
-}
-.bg- {
-    &dark {
-        background-color: $dark;
-    }
-    &orange {
-        background-color: $orange;
-    }
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.container {
     font-family: 'Allerta', sans-serif;
-}
-body {
-    min-height: 100vh;
-    main {
-        margin: auto;
-        .background-home {
-            width: 100%;
-            position: fixed;
-            top: 0px;
-            left: 0;
-            z-index: -10;
-            img {
-                width: 100%;
-            }
-        }
-        .container {
-            width: 100%;
-            padding: 10px;
-        }
-        .in {
-            max-width: 900px;
-            margin: auto;
-        }
-        .banner {
-            max-width: 900px;
-            text-align: center;
-            margin: auto;
-            margin-top: 0px;
-            padding: 20px;
-        }
-        .test {
-            background-color: #fff;
-            z-index: 0;
-            margin-top: 300px;
-        }
-        
-        .try {
-            height: 100vh;
-        }
-    }
-
-    .images-tablier-container{
-        max-width: 900px;
-        margin: auto;
-        padding: 10px;
-        .img- {
-            &denim {
-                margin-left: 30vw;
-                position: relative;
-            }
-            &torchon {
-                margin-left: 10vw;
-                margin-top: -30px;
-            }
-        }
-        .sur-text {
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 171px;
-            width: 171px;
-            background-color: rgba($color: #000000, $alpha: 0);
-            color: rgba(255, 255, 255, 0);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            &:hover {
-                background-color: rgba($color: #000000, $alpha: 0.8);
-                color: white;
-                
-            }
-        }
-        .rectangles {
-            margin-left: calc(10vw + 150px);
-            margin-top: -90px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-between;
-            height: 100px;
-            width: 110px;
-            gap: 5px;
-        }
-        .rectangles > div {
-            width: 100%;
-            height: 35px;
-            background-color: $grey;
-        }
-    }
-
-    .images-sur-mesure-container {
-        padding: 20px;
-    }
-    
-    .images-ateliers-container {
-        padding: 5vw;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .BAM {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        // --main-bg-color: rgba(255, 255, 0);
-        // --second-bg-color: red;
-        // background-color: var(--main-bg-color);
-        // background-color: rgba(255, 255, 0, 0.616);
-        // color: var(--second-bg-color);
-        font-size: 150px;
-        font-weight: 900;
-        -webkit-touch-callout: none; /* iOS Safari */
-        -webkit-user-select: none; /* Safari */
-         -khtml-user-select: none; /* Konqueror HTML */
-           -moz-user-select: none; /* Old versions of Firefox */
-            -ms-user-select: none; /* Internet Explorer/Edge */
-                user-select: none;
-    }
-}
-
-header {
-    
-    font-size: 34px;
-    background-color: white;
-    height: 65px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    .burger {
-        padding: 10px;
-    }
-    nav {
-        height: 100%;
-        background-color: red;
-    }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .BAM {
+      font-size: 34vw;
+      font-weight: 900;
+      margin: 0;
+  }
+  .hero {
+      font-size: 4.5vw;
+  }
 }

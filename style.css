@@ -1,162 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Allerta&family=Karla&display=swap");
-.orange {
-  color: #FD562A;
-}
-
-.bg-dark {
-  background-color: #252525;
-}
-
-.bg-orange {
-  background-color: #FD562A;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+.container {
   font-family: 'Allerta', sans-serif;
-}
-
-body {
-  min-height: 100vh;
-}
-
-body main {
-  margin: auto;
-}
-
-body main .background-home {
-  width: 100%;
   position: fixed;
-  top: 0px;
-  left: 0;
-  z-index: -10;
-}
-
-body main .background-home img {
-  width: 100%;
-}
-
-body main .container {
-  width: 100%;
-  padding: 10px;
-}
-
-body main .in {
-  max-width: 900px;
-  margin: auto;
-}
-
-body main .banner {
-  max-width: 900px;
-  text-align: center;
-  margin: auto;
-  margin-top: 0px;
-  padding: 20px;
-}
-
-body main .test {
-  background-color: #fff;
-  z-index: 0;
-  margin-top: 300px;
-}
-
-body main .try {
-  height: 100vh;
-}
-
-body .images-tablier-container {
-  max-width: 900px;
-  margin: auto;
-  padding: 10px;
-}
-
-body .images-tablier-container .img-denim {
-  margin-left: 30vw;
-  position: relative;
-}
-
-body .images-tablier-container .img-torchon {
-  margin-left: 10vw;
-  margin-top: -30px;
-}
-
-body .images-tablier-container .sur-text {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 171px;
-  width: 171px;
-  background-color: rgba(0, 0, 0, 0);
-  color: rgba(255, 255, 255, 0);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .images-tablier-container .sur-text:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
-}
-
-body .images-tablier-container .rectangles {
-  margin-left: calc(10vw + 150px);
-  margin-top: -90px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 100px;
-  width: 110px;
-  gap: 5px;
-}
-
-body .images-tablier-container .rectangles > div {
-  width: 100%;
-  height: 35px;
-  background-color: #C4C4C4;
-}
-
-body .images-sur-mesure-container {
-  padding: 20px;
-}
-
-body .images-ateliers-container {
-  padding: 5vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-body .BAM {
-  position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
@@ -164,47 +9,25 @@ body .BAM {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 150px;
+}
+
+.container .BAM {
+  font-size: 34vw;
   font-weight: 900;
-  -webkit-touch-callout: none;
-  /* iOS Safari */
-  -webkit-user-select: none;
-  /* Safari */
-  /* Konqueror HTML */
-  -moz-user-select: none;
-  /* Old versions of Firefox */
-  -ms-user-select: none;
-  /* Internet Explorer/Edge */
-  user-select: none;
+  margin: 0;
 }
 
-header {
-  font-size: 34px;
-  background-color: white;
-  height: 65px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-header .burger {
-  padding: 10px;
-}
-
-header nav {
-  height: 100%;
-  background-color: red;
+.container .hero {
+  font-size: 4.5vw;
 }
 /*# sourceMappingURL=style.css.map */
