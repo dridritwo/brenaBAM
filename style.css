@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Allerta&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allerta&family=Karla&display=swap");
 .orange {
   color: #FD562A;
 }
@@ -41,9 +41,15 @@ body main .background-home img {
 
 body main .container {
   width: 100%;
+  padding: 10px;
 }
 
 body main .in {
+  max-width: 900px;
+  margin: auto;
+}
+
+body main .banner {
   max-width: 900px;
   text-align: center;
   margin: auto;
@@ -64,15 +70,45 @@ body main .try {
 body .images-tablier-container {
   max-width: 900px;
   margin: auto;
+  padding: 10px;
 }
 
 body .images-tablier-container .img-denim {
   margin-left: 30vw;
+  position: relative;
 }
 
 body .images-tablier-container .img-torchon {
   margin-left: 10vw;
   margin-top: -30px;
+}
+
+body .images-tablier-container .sur-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 171px;
+  width: 171px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .images-tablier-container .sur-text:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
 }
 
 body .images-tablier-container .rectangles {
@@ -100,6 +136,23 @@ body .images-tablier-container .rectangles > div {
   width: 100%;
   height: 35px;
   background-color: #C4C4C4;
+}
+
+body .images-sur-mesure-container {
+  padding: 20px;
+}
+
+body .images-ateliers-container {
+  padding: 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 body .BAM {

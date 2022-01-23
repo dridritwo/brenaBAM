@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Karla&display=swap');
+
 $orange: #FD562A;
 $dark: #252525;
 $grey: #C4C4C4;
+
 .orange {
     color: $orange;
 }
@@ -35,8 +37,13 @@ body {
         }
         .container {
             width: 100%;
+            padding: 10px;
         }
         .in {
+            max-width: 900px;
+            margin: auto;
+        }
+        .banner {
             max-width: 900px;
             text-align: center;
             margin: auto;
@@ -57,13 +64,33 @@ body {
     .images-tablier-container{
         max-width: 900px;
         margin: auto;
+        padding: 10px;
         .img- {
             &denim {
                 margin-left: 30vw;
+                position: relative;
             }
             &torchon {
                 margin-left: 10vw;
                 margin-top: -30px;
+            }
+        }
+        .sur-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 171px;
+            width: 171px;
+            background-color: rgba($color: #000000, $alpha: 0);
+            color: rgba(255, 255, 255, 0);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &:hover {
+                background-color: rgba($color: #000000, $alpha: 0.8);
+                color: white;
+                
             }
         }
         .rectangles {
@@ -83,7 +110,18 @@ body {
             background-color: $grey;
         }
     }
+
+    .images-sur-mesure-container {
+        padding: 20px;
+    }
     
+    .images-ateliers-container {
+        padding: 5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .BAM {
         position: absolute;
         top: 0;
