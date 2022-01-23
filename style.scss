@@ -4,6 +4,13 @@ $orange: #fd562a;
 $dark: #252525;
 $grey: #c4c4c4;
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Allerta', sans-serif;
+}
+
 .container {
     font-family: 'Allerta', sans-serif;
   position: fixed;
@@ -13,12 +20,17 @@ $grey: #c4c4c4;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  gap: 20px;
   .BAM {
       font-size: 34vw;
+      line-height: 30vw;
       font-weight: 900;
-      margin: 0;
+      div {
+          display: inline-block;
+          transform: rotate(-1.7deg);
+      }
   }
   .hero {
       font-size: 4.5vw;
